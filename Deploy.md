@@ -93,11 +93,13 @@ docker login registry.mrdevops-gitlab.com
 ```
 
 2.  Fazer o download da image mais atual:
+
 ```
 docker pull registry.mrdevops-gitlab.com/ParasiteWeb/<repositório>
 ```
 
 3.  Executar o *container*:
+
 ```
 docker run -tid -p <porta_host>:<porta_guest> --name <nome> registry.mrdevops-gitlab.com/ParasiteWeb/<repositório>
 ```
